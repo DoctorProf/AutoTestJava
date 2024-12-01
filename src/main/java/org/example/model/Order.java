@@ -11,10 +11,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Order {
-    private int id;
-    private int petId;
+    private long id;
+    private long petId;
     private int quantity;
     private Date shipDate;
     private String status;
-    private Boolean completed;
+    private Boolean complete;
 }
